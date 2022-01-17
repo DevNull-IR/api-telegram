@@ -3,9 +3,7 @@ header('Content-Type: application/json');
 @$token = $_GET['token'];
 @$method = $_GET['method'];
 /**
-* @Pre_Code
-* @dev_null_project
-* @dev_null
+* https://github.com/DevNull-IR
 */
 function bot($method,$datas=[]){
     global $token;
